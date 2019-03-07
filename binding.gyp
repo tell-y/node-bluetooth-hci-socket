@@ -2,6 +2,7 @@
   'targets': [
     {
       'target_name': 'binding',
+      'win_delay_load_hook': 'true',
       'conditions': [
         ['OS=="linux" or OS=="android" or OS=="freebsd"', {
           'sources': [
